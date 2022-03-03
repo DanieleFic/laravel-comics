@@ -20,3 +20,52 @@
     flex-wrap: wrap;
     align-items: center;
 }
+
+.ms_button{
+    background-color:#0282f9;
+    border: 0;
+    padding: 10px 60px;
+    color: white;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+
+
+.ms_sottomain{
+    margin: 0 auto;
+    max-width: 1300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ms_containerschede{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:#0282f9 ;
+}
+
+.ms_icontext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 30px;
+    p{
+        padding: 0 10px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+.imgbox{
+    height: 55px;
+    img{
+        height: 60px;
+    }
+}

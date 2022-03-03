@@ -4,8 +4,8 @@
         <div class="preheader">
             
         </div>
-        <div class="container">
-            <div class="ms_menu">
+        <div class="containerheader">
+            <div class="ms_menuheader">
                 <img class="ms_logo" src="{{ asset('images/dc-logo.png') }}" alt="">
                 <ul>
                     <li>CHARACTERS</li>

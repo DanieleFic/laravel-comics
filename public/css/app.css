@@ -2,17 +2,6 @@
   margin: 40px 0 0;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
 a {
   color: #000000;
   text-decoration: none;
@@ -21,21 +10,32 @@ a {
 
 a.active,
 a:hover {
-  color: #2596be;
+  color: #0282f9;
 }
 
 .preheader {
   height: 15px;
-  background-color: #2596be;
+  background-color: #0282f9;
 }
 
-.ms_menu {
+.ms_menuheader {
   margin: 0 auto;
   width: 70%;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.ms_menuheader ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.ms_menuheader ul li {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .ms_logo {
@@ -45,12 +45,13 @@ a:hover {
 
 .ms_jumbo {
   height: 400px;
+  background-color: red;
   /* background-image: url("../../../public/images/jumbotron.jpg");  */
 }
 
 .ms_search {
   border: 0;
-  border-bottom: 2px solid #2596be;
+  border-bottom: 2px solid #0282f9;
   text-align: end;
 }
 
@@ -77,6 +78,56 @@ a:hover {
   align-items: center;
 }
 
+.ms_button {
+  background-color: #0282f9;
+  border: 0;
+  padding: 10px 60px;
+  color: white;
+  font-weight: 600;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.ms_sottomain {
+  margin: 0 auto;
+  max-width: 1300px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ms_containerschede {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #0282f9;
+}
+
+.ms_icontext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 30px;
+}
+
+.ms_icontext p {
+  padding: 0 10px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.imgbox {
+  height: 55px;
+}
+
+.imgbox img {
+  height: 60px;
+}
+
 .ms_boxfumetti {
   width: 216.6666666667px;
   height: 200px;
@@ -91,7 +142,106 @@ a:hover {
   height: 100%;
 }
 
-/* @import 'partials/_footer'; */
+.ms_footer {
+  /* background-image: url("../assets/img/footer-bg.jpg"); */
+  background-size: cover;
+  background-color: #443f3f;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .logoimg {
+  height: 500px;
+  margin: -30px;
+}
+
+.msli {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 10px;
+  color: white;
+  text-align: start;
+  padding: 0;
+}
+
+.msli img {
+  height: 450px;
+}
+
+.msli .firstLI {
+  padding-right: 60px;
+}
+
+.msli .secondLI {
+  padding-right: 60px;
+}
+
+.msli .thirdLI {
+  padding-right: 60px;
+}
+
+.msli h3 {
+  padding: 15px 0px;
+}
+
+.msli ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.msli ul li {
+  list-style-type: none;
+  font-size: 13px;
+  color: gray;
+  padding: 5px 0px;
+}
+
+.msli ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.ms_secondfooter {
+  height: 100px;
+  background-color: #303030;
+  margin: 0 auto;
+  padding: 25px 15px;
+  position: relative;
+}
+
+.ms_secondfooter .ms_buttonfooter {
+  background-color: #303030;
+  border: 2px solid #0282f9;
+  color: white;
+  padding: 15px;
+}
+
+.ms_secondfooter .ms_containersecondfooter {
+  margin: 0 auto;
+  width: 1300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ms_social {
+  display: flex;
+  align-items: center;
+  color: #0282f9;
+  font-weight: 900;
+}
+
+.ms_social img {
+  padding: 0 13px;
+}
 
 * {
   margin: 0;

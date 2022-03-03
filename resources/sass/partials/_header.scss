@@ -2,36 +2,38 @@ h3{
     margin: 40px 0 0;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-    li {
-        display: inline-block;
-        margin: 0 10px;
-    }
     a{
         color: #000000;
         text-decoration: none;
         font-weight: 400;
         &.active, &:hover{
-        color:#2596be;
+        color:#0282f9;
     }
 }
 
 .preheader{
     height: 15px;
-    background-color: #2596be;
+    background-color: #0282f9;
 }
 
-.ms_menu{
+.ms_menuheader{
     margin: 0 auto;
     width: 70%;
     background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+    ul{
+        list-style-type: none;
+        padding: 0;
+        font-family: 'Roboto Condensed', sans-serif;
+        
+        li{
+            display: inline-block;
+            margin: 0 10px;
+        }
+    }
 }
 
 .ms_logo{
@@ -41,11 +43,12 @@ ul {
 
 .ms_jumbo{
     height: 400px;
+    background-color: red;
     /* background-image: url("../../../public/images/jumbotron.jpg");  */
 }
 
 .ms_search{
     border: 0;
-    border-bottom: 2px solid #2596be;
+    border-bottom: 2px solid #0282f9;
     text-align: end;
 }
