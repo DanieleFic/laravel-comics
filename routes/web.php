@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('welcome');
+});
+ */
+Route::get('/', function () {
+    $array_comics = config('comics');
+    return view('comics',['comics'=>$array_comics]);
 });

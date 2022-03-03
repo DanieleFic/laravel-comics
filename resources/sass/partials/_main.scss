@@ -1,0 +1,22 @@
+.ms_main{
+    background-color: #1c1c1c;
+    color: white;
+    padding: 50px;
+    position: relative;
+    height: 700px;
+}
+
+.ms_container{
+    margin: 0 auto;
+    max-width: 1300px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ms_flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}

@@ -1,0 +1,51 @@
+h3{
+    margin: 40px 0 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+    li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    a{
+        color: #000000;
+        text-decoration: none;
+        font-weight: 400;
+        &.active, &:hover{
+        color:#2596be;
+    }
+}
+
+.preheader{
+    height: 15px;
+    background-color: #2596be;
+}
+
+.ms_menu{
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ms_logo{
+    height: 80px;
+    margin: 15px 0px;
+}
+
+.ms_jumbo{
+    height: 400px;
+    /* background-image: url("../../../public/images/jumbotron.jpg");  */
+}
+
+.ms_search{
+    border: 0;
+    border-bottom: 2px solid #2596be;
+    text-align: end;
+}
