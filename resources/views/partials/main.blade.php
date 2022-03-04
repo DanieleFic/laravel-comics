@@ -17,19 +17,19 @@
                     <p>DIGITAL COMICS</p>
             </div>
             <div  class="ms_icontext">
-                <img class="imgbox" src="{{ asset('images/buy-comics-digital-comics.png') }}"  alt="">
+                <img class="imgbox" src="{{ asset('images/buy-comics-merchandise.png') }}"  alt="">
                 <p>DC MERCHANDISE</p>
             </div>
             <div  class="ms_icontext">
-                <img class="imgbox" src="{{ asset('images/buy-comics-digital-comics.png') }}"  alt="">
+                <img class="imgbox" src="{{ asset('images/buy-comics-shop-locator.png') }}"  alt="">
                 <p>SUBSCRIPTION</p>
             </div>
             <div  class="ms_icontext">
-                <img class="imgbox" src="{{ asset('images/buy-comics-digital-comics.png') }}"  alt="">
+                <img class="imgbox" src="{{ asset('images/buy-comics-subscriptions.png') }}"  alt="">
                 <p>COMIC SHOP LOCATOR</p>
             </div>
             <div  class="ms_icontext">
-                <img class="imgbox" src="{{ asset('images/buy-comics-digital-comics.png') }}"  alt="">
+                <img class="imgbox" src="{{ asset('images/buy-dc-power-visa.svg') }}"  alt="">
                 <p>DC POWER VISA</p>
             </div>
         </div>

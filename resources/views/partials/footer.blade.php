@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="logoimg">
-            <img src="../assets/img/dc-logo-bg.png" alt="">
+            <img src="{{ asset('images/dc-logo-bg.png') }}" alt="">
         </div>
     </div>
     
